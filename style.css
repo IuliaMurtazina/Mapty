@@ -88,11 +88,35 @@ a:visited {
   font-size: 1.7rem;
   font-weight: 600;
   grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+.workout__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row: 1/-1;
+  grid-column: 4/-1;
 }
 
 .workout__details {
   display: flex;
   align-items: baseline;
+}
+
+.workout__delete,
+.workout__edit {
+  height: 3rem;
+  width: 3rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.workout__edit {
+  font-size: 1.3rem;
 }
 
 .workout__icon {
